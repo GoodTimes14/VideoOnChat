@@ -4,15 +4,9 @@ import it.goodtimes14.video.stream.CurrentStream;
 import it.goodtimes14.video.stream.manager.VideoStreamManager;
 import lombok.RequiredArgsConstructor;
 import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
-import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
-import org.jcodec.common.model.Picture;
-import org.jcodec.scale.Transform;
-
 import java.awt.*;
 import java.awt.image.BufferedImage;
-import java.nio.Buffer;
 
 @RequiredArgsConstructor
 public class VideoTask extends BukkitRunnable {

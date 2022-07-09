@@ -24,6 +24,6 @@ public class VideoStreamManager  {
 
 
     public void createTask(File file) {
-        currentTask = new VideoTask(this,new CurrentStream(file)).runTaskTimer(plugin,20,1);
+        currentTask = new VideoTask(this,new CurrentStream(file)).runTaskTimerAsynchronously(plugin,20,1);
     }
 }
