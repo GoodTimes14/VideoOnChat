@@ -1,0 +1,7 @@
+name: VideoOnChat
+author: GoodTimes14
+main: it.goodtimes14.video.VideoOnChat
+version: 1.0.0
+description: Play videos on chat
+commands:
+  playvideo:
